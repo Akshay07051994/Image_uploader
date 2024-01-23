@@ -1,5 +1,5 @@
 from django.contrib import admin
-from imageuploader.myapp.models import Image
+from .models import Image
 # Register your models here.
 
 @admin.register(Image)
